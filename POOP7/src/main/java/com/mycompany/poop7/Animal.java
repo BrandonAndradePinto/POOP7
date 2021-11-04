@@ -10,7 +10,12 @@ public class Animal {
 
     public Animal() {
     }
-
+    /**
+     * 
+     * @param nombre Recibe una cadena de caracteres que indica el nombre del Animal
+     * @param lugarOrigen Recibe un cadena de caracteres que indica el origen del animal
+     * @param color Recibe una cadena de caracters que indica el color del animal
+     */
     public Animal(String nombre, String lugarOrigen, String color) {
         this.nombre = nombre;
         this.lugarOrigen = lugarOrigen;

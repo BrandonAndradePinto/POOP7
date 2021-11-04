@@ -8,15 +8,29 @@ public class AnimalAcuatico extends Animal{
 
     public AnimalAcuatico() {
     }
-
+    /**
+     * 
+     * @param aletas Recibe un numero entero que indica el numero de aletas de un animal acuatico
+     */
     public AnimalAcuatico(int aletas) {
         this.aletas = aletas;
     }
-
+    /**
+     * 
+     * @param nombre Recibe una cadena de caracteres que indica el nombre del Animal
+     * @param lugarOrigen Recibe un cadena de caracteres que indica el origen del animal
+     * @param color Recibe una cadena de caracters que indica el color del animal
+     */
     public AnimalAcuatico(String nombre, String lugarOrigen, String color) {
         super(nombre, lugarOrigen, color);
     }
-
+    /**
+     * 
+     * @param nombre Recibe una cadena de caracteres que indica el nombre del Animal
+     * @param lugarOrigen Recibe un cadena de caracteres que indica el origen del animal
+     * @param color Recibe una cadena de caracters que indica el color del animal
+     * @param aletas Recibe un numero entero que indica el numero de aletas de un animal acuatico
+     */
     public AnimalAcuatico(String nombre, String lugarOrigen, String color, int aletas) {
         super(nombre, lugarOrigen, color);
         this.aletas = aletas;
