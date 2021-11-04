@@ -62,5 +62,39 @@ public class Main {
         cachalote.sonido();
         cachalote.nadar();
         cachalote.pelearConPinocho();
+        
+        System.out.println("\n--------------------------[Clase Animal Aereo]-----------------------------\n");
+        AnimalAereo animalAer = new AnimalAereo();
+        System.out.println(animalAer);
+        AnimalAereo animalAer2 = new AnimalAereo("Aguila", "Bosque", "cafe", 2);
+        System.out.println(animalAer2);
+        animalAer2.comer();
+        animalAer2.sonido();
+        animalAer2.volar();
+        
+        System.out.println("\n--------------------------[Clase Animal Aereo: Aguila]-----------------------------\n");
+        Pajaro Aguila = new Pajaro ("Aguila", "Bosque", "cafe",2, "Redondo");
+        System.out.println(Aguila);
+        Aguila.comer();
+        Aguila.sonido();
+        Aguila.volar();
+        Aguila.recolectarRamas();
+        
+        System.out.println("\n--------------------------[Clase Animal Terrestre]-----------------------------\n");
+        AnimalTerrestre animalTer = new AnimalTerrestre();
+        System.out.println(animalTer);
+        AnimalTerrestre animalTer2 = new AnimalTerrestre("Golden Retriever", "Casa", "dorado", 4);
+        System.out.println(animalTer2);
+        animalTer2.comer();
+        animalTer2.sonido();
+        animalTer2.correr();
+        
+        System.out.println("\n--------------------------[Clase Animal Terrestre: Perro]-----------------------------\n");
+        Perro GRetriever = new Perro ("Golden Retriever", "Casa", "dorado",4, "Rojo");
+        System.out.println(GRetriever);
+        GRetriever.comer();
+        GRetriever.sonido();
+        GRetriever.correr();
+        GRetriever.hacerTruco();
     }
 }
